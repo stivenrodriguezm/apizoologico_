@@ -3,6 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const authRoutes = require("./routes/authentication");
+const verifyToken = require('./routes/validate_token');
 
 const app = express();
 
